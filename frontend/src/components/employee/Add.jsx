@@ -15,6 +15,8 @@ const Add = () => {
     };
     getDepartments();
   }, []);
+  console.log("Im running");
+  
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;
